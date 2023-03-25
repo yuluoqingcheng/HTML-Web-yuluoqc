@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.content{
+	width: 880px;
+	height: 600px;
+	margin: 0 auto;
+	background-color: cadetblue;
+}
+.header,.footer{
+	height: 80px;
+	background-color: aquamarine;
+}
+.middle,.left,.right{
+	height: 440px;
+}
+.left{
+	width: 30%;
+	float: left;
+	background-color: coral;
+}
+.right{
+	width: 70%;
+	float: left;
+	background-color: darksalmon
+}
+.nav{
+	height: 30px;
+	background-color: #dbd40c;
+}
+.right,.r1,.r2{
+	width: 35%;
+	float: right;
+	background-color: #0098DB;
+}

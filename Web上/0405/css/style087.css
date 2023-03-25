@@ -1,0 +1,85 @@
+body{
+	background-color: #E9FAFF;
+	color: #555;
+	font-family: "宋体";
+	font-size: 12px;
+}
+
+.nav{
+	background-color: #88C6E5;
+	color: #FFF;
+	font-size: 15px;
+	font-size: "黑体";
+}
+
+#banner{
+border-width: 2px;	
+border-style: solid;
+border-color: #88C6E5;
+color: white;
+line-height: 30px;
+}
+
+.box_con{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #88C6E5;
+}
+
+.con_top{
+	border-bottom-color: #88C6E5;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #E1ECED;
+	line-height: 40px;
+	text-align: left;
+}
+
+.bookname{
+border-width: 1px;
+border-style: dashed;
+border-color:#88C6E5 ;
+	line-height: 30px;
+}
+
+h1{
+font-family: '黑体';
+line-height: 35px;
+font-size: 25px;
+text-align:center;
+}
+
+.bottem1{
+color: #085308;
+font-size: 14px;
+}
+
+#content{
+font-size: 19px;
+letter-spacing: 0.2px;
+font-family: '微软雅黑';
+line-height: 1.5;
+}
+
+.error{
+	font-size: 18px;
+	text-align: center;
+}
+
+.bottem2{
+	border-top-width: 1px;
+	border-top-style: dashed;
+	color:#88C6E5 ;
+	text-align: center;
+}
+
+.footer_link{
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-color: #88C6E5;
+}
+
+.footer_cont{
+	color: #B2B2B2;
+	line-height: 20px;
+}

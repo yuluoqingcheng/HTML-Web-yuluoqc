@@ -1,0 +1,19 @@
+.title{
+	background-color: #f1f1f1;
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	text-align: center;
+}
+
+.shang{
+	width: 90%;
+	border-bottom: 1px dashed #BBB;
+	margin-left: 5%;
+	color: #0098DB;
+	font-size: 25px;
+}
+
+.xia{
+	color: #626262;
+	font-size: 12px;
+}

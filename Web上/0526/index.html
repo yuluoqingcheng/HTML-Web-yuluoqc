@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<table border="1" width="500" cellspacing="0" id="">
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td onclick="del(this)">删除</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+<!-- <input type="button" value="新增一行"> -->
+		<button onclick="addNew()">新增一行</button>
+
+		<script>
+			function addNew(){
+				//获取表格对象
+				var tab = document.getElementsByTagName('table')[0];
+				//创建一个元素
+				var trNew = document.createElement('tr');
+				//获取表格中的元素
+				var tr = tab.rows;
+				var td = tab.rows[0].cells;
+				// console.log(td);
+				//获取数组
+				for(var i=0;i<td.length;i++){
+					var tdNew = document.createElement('td');
+					if(i == td.length-1){
+						tdNew.innerHTML='删除'
+						tdNEw.setAttribute('onclick','del(this)');
+					}
+					trNew.appendChild(tdNew);
+					// trNew.appendChild(tdNew);
+				}
+
+				
+
+				var tdNew1 = document.createElement('td');
+				var tdNew2 = document.createElement('td');
+				var tdNew3 = document.createElement('td');
+				trNew.appendChild(tdNew1);
+				trNew.appendChild(tdNew2);
+				trNew.appendChild(tdNew3);
+				// console.log(trNew);
+
+				tab.appendChild(trNew);
+			}
+			function del(tdobj){
+				var i = tdobj.parentNode.parentNode.rowIndex;
+				document.getElementById('ta1').deleteRow(i);
+			}
+
+		</script>
+	</body>
+</html>

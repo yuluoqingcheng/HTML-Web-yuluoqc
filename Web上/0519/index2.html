@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="show">还剩5秒</div>
+		<script>
+			window.onload=function(){
+				var showdiv=document.getElementById('show')
+				var timer=5;
+				setInterval(function(){
+					timer=timer-1;
+					showdiv.innerHTML="还剩"+timer+"秒";
+					if(timer==0){
+						window.close();
+					}
+				},1000)
+			}
+		</script>
+	</body>
+</html>

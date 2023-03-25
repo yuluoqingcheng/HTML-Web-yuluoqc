@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script>
+		var div = document.createElement("dev");
+		console.log(typeof(dev));
+		div.innerHTML = '今天不压堂'
+		div.style.cssText = 'height; 30px;color:hotpink'
+		document.body.appendChild(div);
+		</script>
+	</head>
+	<body>
+		<button onclick="createRandomCode()">生成3位验证码</button>
+		<div id="code"></div>
+	</body>
+</html>

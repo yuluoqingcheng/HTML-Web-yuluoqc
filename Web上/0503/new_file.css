@@ -1,0 +1,17 @@
+.yuluo {
+    padding: 40px 20px;
+    height:350px;
+    width: 540px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    cursor: pointer;
+    background: #44bbff;
+    color: #90ff29;
+    border: 20px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}

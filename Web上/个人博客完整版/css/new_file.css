@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+/* 	font: 14px "microsoft yahei"; */
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+
+.h_content{
+	height: 400px;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.nav{
+	height: 50px;
+}
+
+.nav_left{
+	width: 300px;
+	float: left;
+}
+.nav_right{
+	float: right;
+}
+
+.nav_right ul{
+	list-style: none;
+}
+
+.nav_right ul li{
+	float: left;
+	padding: 5px;
+}
+
+.touxiang{
+	text-align: center;
+}
+
+.touxiang img{
+	width: 150px;
+	border-radius: 85px;
+}
+
+.name{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.name h1{
+	font-family: 黑体;
+	color: white;
+}
+
+.name p{
+	font-size: 16px;
+	color: white;
+}
+
+.button{
+	text-align: center;
+	padding: 20px 0;
+	
+}
+.button button{
+	padding: 10px 25px;
+}
+
+#header{
+	height: 400px;
+	background: url(../../0401/df.png);
+	background-size: 100%;
+}

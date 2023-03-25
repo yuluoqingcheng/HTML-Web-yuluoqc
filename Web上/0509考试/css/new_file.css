@@ -1,0 +1,144 @@
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-family: "microsoft yahei";
+			color: #666666;
+			font-size: 12px;
+		}
+		.yuluoqc{
+			height: 105px;
+			width: 100%;
+		}
+		.yuluoqc_center{
+			margin: 0 auto;
+			width: 953px;
+			height: 76px;
+		}
+		.yuluoqc_center_admin{
+			width: 193px;
+			height: 76px;
+			margin-top: 28px;
+		}
+		.header_center_img img{
+			width: 80px;
+			height: 80px;
+		}
+		.yuluo{
+			width: 100%;
+			height: 480px;
+			background-color: #518e17;
+			border: 1px solid #79a652;
+		}
+		.yuluo_one{
+			width: 953px;
+			height: 480px;
+			margin: 0 auto;
+		}
+		.yuluo_one_left{
+			width: 30px;
+			height: 293px;
+			font-size: 30px;
+			text-align: center;
+			color: #FFFFFF;
+			line-height: 36px;
+			margin-top: 83px;
+			margin-left: 114px;
+			float: left;
+		}
+		.yuluo_one_top{
+			width: 368px;
+			height: 379px;
+			background-color: #FFFFFF;
+			border: 1px solid #c6c6c5;
+			margin-top: 50px;
+			float: right;
+		}
+		.text{
+			width: 308px;
+			height: 70px;
+			border-bottom: 1px solid #e0e0e0;
+			margin: 0 auto;
+		}
+		.text p{
+			line-height: 70px;
+			color: #a8a8a8;
+			margin-left: 44px;
+			float: left;
+			font-weight: bold;
+			font-size: 24px;
+		}
+		.main_a{
+			width: 100px;
+			height: 16px;
+			font-size: 16px;
+			color: #5fb42a;
+			text-indent: 25px;
+			float: left;
+			margin-top: 27px;
+			margin-left: 33px;
+			text-decoration: none;
+		}
+		.form{
+			width: 308px;
+			height: 221px;
+			margin: 20px auto;
+		}
+		.user{
+			width: 308px;
+			height: 68px;
+		}
+		.f_input{
+			width: 308px;
+			height: 38px;
+			border: 1px solid #e0e0e0;
+			text-indent: 10px;
+			background-color: #f8f8f8;
+		}
+		.passwd{
+			width: 308px;
+			height: 68px;
+		}
+		.user-jz{
+			margin-top: 2px;
+			margin-right: 10px;
+			float: left;
+		}
+		.left_user{
+			float: left;
+		}
+		.left_user_a{
+			color: #4b4b4b;
+			float: right;
+			text-decoration: none;
+			hover{color:red}
+		}
+		.f_user{
+			width: 308px;
+			height: 40px;
+			border: none;
+			background-color: #47aa34;
+			font-size: 24px;
+			line-height: 40px;
+			color: white;
+		}
+		.title{
+			width: 100%;
+			height: 145px;
+			margin-top: 40px;
+		}
+		.about{
+			text-align: center;
+		}
+		.about a{
+			text-decoration: none;
+			color: #4e4e4e;
+			margin-top: 10px;
+			line-height: 27px;
+		}
+		.bc{
+			text-align: center;
+			line-height: 27px
+		

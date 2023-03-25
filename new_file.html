@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body onresize="myFun()">
+	<div id="div1"></div>
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementById("div1").innerHTML="界面加载完毕"
+		}
+		function myFun(){
+			console.log("高度"+window.innerWidth)
+			console.log("宽度"+window.innerHeight)
+		}
+	</script>
+	</body>
+</html>

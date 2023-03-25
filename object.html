@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<script>
+			// 字面量
+			var person1 = {'name': '安迪', 'age': 18, 'address': '沈阳'};
+			console.log('大家好，我叫' + person1.name + '今年' + person1.age + '岁' + '来自' + person1.address)
+			
+			// 系统构造函数
+			var person2 = new Object();
+			person2.name = '露西';
+			person2.age = 19;
+			person2.address = '大连';
+			console.log('大家好，我叫' + person2.name + '今年' + person2.age + '岁' + '来自' + person2.address)
+			
+			
+			function newPerson(name, age, address) {
+				this.name = name;
+				this.age = age;
+				this.address = address;
+				this.say = function() {
+					console.log('大家好，我叫' + this.name + '今年' + this.age + '岁' + '来自' + this.address)
+				}
+				return this;
+			}
+			
+			var person3 = newPerson('比尔', 20, '鞍山');
+			person3.say();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+/* 	font: 14px "microsoft yahei"; */
+	font-size: 14px;
+	font-family: "microsoft yahei";
+}
+
+.h_content{
+	height: 400px;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.nav{
+	height: 50px;
+}
+
+.nav_left{
+	width: 300px;
+	float: left;
+}
+.nav_right{
+	float: right;
+}
+
+.nav_right ul{
+	list-style: none;
+}
+
+.nav_right ul li{
+	float: left;
+	padding: 5px;
+}
+
+.touxiang{
+	text-align: center;
+}
+
+.touxiang img{
+	width: 150px;
+	border-radius: 85px;
+}
+
+.name{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.name h1{
+	font-family: 黑体;
+	color: white;
+}
+
+.name p{
+	font-size: 16px;
+	color: white;
+}
+
+.button{
+	text-align: center;
+	padding: 20px 0;
+	
+}
+.button button{
+	padding: 10px 25px;
+}
+
+#header{
+	height: 400px;
+	background: url(../../0401/df.png);
+	background-size: 100%;
+}
+
+#info{
+	/* background-color: #008b00; */
+	height: 200px;
+	margin-top: 30px;
+}
+
+.i_content,.s_content,.p_content{
+	width: 80%;
+	border: 1px solid #bbb;
+	/* background-color: #63a0df; */
+	height: 230px;
+	margin: 0 auto;
+	border-color: red;
+	webkit-border-radius: 10px 20px 30px; 
+	moz-border-radius: 10px 20px 30px; 
+	border-radius: 10px 20px 30px;
+	box-shadow: orange 1px 3px 3px 3px;
+}
+
+.i_left{
+	width: 49%;
+	/* background-color: peachpuff; */
+	float: right;
+	height: 200px;
+	color: cornflowerblue;
+}
+
+.i_rigit{
+	width: 48%;
+	/* background-color: peachpuff; */
+	float: right;
+	height: 200px;
+	color: sandybrown;
+}
+
+.i_content p{
+	margin-top: 20px;
+	text-align: justify;
+}
+
+#skill{
+	height: 300px;
+	margin-top: 60px;
+}
+
+#skill h2{
+	text-align: center
+}
+
+.s_content p{
+	width: 48%;
+	/* background-color: peachpuff; */
+	float: right;
+	height: 200px;
+	color: sandybrown;
+}
+
+
+#project h2{
+	text-align: center
+}
+
+#project {
+	text-align: center
+}
+
+.p_content{
+	width: 80%;
+	border: 1px solid #bbb;
+	/* background-color: #63a0df; */
+	height: 530px;
+	margin: 0 auto;
+	border-color: red;
+	webkit-border-radius: 10px 20px 30px; 
+	moz-border-radius: 10px 20px 30px; 
+	border-radius: 10px 20px 30px;
+	box-shadow: orange 1px 3px 3px 3px;
+}
+
+.s_content p{
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.foot_power{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.foot_power h3{
+    font-size: 16px;
+    color: #999999;
+    font-weight: normal;
+}
+
+.foot_power h3 a{
+    color: #999999;
+    font-weight: normal;
+}
+
+ .foot_power{
+        padding: 1rem 0;
+    }
+    
+    .foot_power h3{
+        font-size: 0.8rem;
+    }

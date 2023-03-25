@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单演示</title>
+	</head>
+	<body>
+<!-- <link rel="stylesheet" href="./new_file.css"> -->
+		<form action="get.html" class="yuluo">
+			<!-- placeholder 作为信息提示，当文本框内容发生改变时，会自动清空
+			 当内容为空，并且移除焦点后，会自动恢复-->
+			姓名：<input type="text" name="uname"  placeholder="请输入用户名"><br>
+			密码：<input type="password" name="upwd" ">
+			<br>
+			性别：&nbsp&nbsp&nbsp
+				<input type="radio" value="male" name="sex" id="gender-man"><label for="gender-man">男</label>
+				<input type="radio" value="female" name="sex" id="gender-women"/><label for="gender-women">女</label>
+				<br>
+			最高学历:<input type="radio" name="bk" id="sex" value="xuel" /><label for="sex">研究生</label>
+					<input type="radio" name="bk" id="sex" value="xueli" /><label for="sex">本科</label>
+					<input type="radio" name="bk" id="sex" value="xueli" /><label for="sex">专科</label>
+					<input type="radio" name="bk" id="sex" value="xueli" /><label for="sex">高中</label><br>
+					
+			计算机系：
+			<input type="checkbox">张雪
+			<input type="checkbox">周晓雯
+			<input type="checkbox">南洋
+			<input type="checkbox">耿春玲
+			<input type="checkbox">韩笑
+			<input type="checkbox">李佳欣
+			<input type="checkbox">王彬
+			<br>
+			寝室位置：
+			<select name="" id="">
+				<option value="">--请选择你的寝室--</option>
+				<option value="">E420</option>
+				<option value="">E419</option>
+				<option value="">E418</option>
+				<option value="">E417</option>
+				<option value="">E416</option>
+				<option value="">E415</option>
+				<option value="">E414</option>
+				<option value="">E413</option>
+				<option value="">E412</option>
+			</select>
+			<br>
+			<textarea name="" id="" cols="30" rows="10"></textarea>
+			<br>
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input style="color: coral;" type="submit" value="提交表单">
+			<input style="color: red;"type="reset" value="重新输入">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>计算器</title>
+		<script src="index.js"></script>
+		<link rel="stylesheet" href="./css/calculator.css">
+	</head>
+	<body>
+		<div class="calculator">
+			<input class="output" value="" id="output" disabled="disabled"/>
+		</div>
+		<div class="numbers">
+			<input type="button" value="7" onclick="calculator.numberClick(7)">
+			<input type="button" value="8" onclick="calculator.numberClick(8)">
+			<input type="button" value="9" onclick="calculator.numberClick(9)">
+			<input type="button" value="4" onclick="calculator.numberClick(4)">
+			<input type="button" value="5" onclick="calculator.numberClick(5)">
+			<input type="button" value="6" onclick="calculator.numberClick(6)">
+			<input type="button" value="1" onclick="calculator.numberClick(1)">
+			<input type="button" value="2" onclick="calculator.numberClick(2)">
+			<input type="button" value="3" onclick="calculator.numberClick(3)">
+			<input type="button" value="0" onclick="calculator.numberClick(0)">
+			<input type="button" value="AC">
+			<input type="button" value="=">
+		</div>
+		<div class="operators">
+			<input type="button" value="*" onclick="caleculator.operatorClick(value)">
+			<input type="button" value="-" onclick="caleculator.operatorClick(value)">
+			<input type="button" value="+" onclick="caleculator.operatorClick(value)">
+			<input type="button" value="/" onclick="caleculator.operatorClick('/')">
+		</div>
+		
+	</body>
+</html>

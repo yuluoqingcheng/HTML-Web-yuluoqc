@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.out{
+width: 360px;
+height: 420px;
+/* border: burlywood solid 1px; */
+margin: auto;
+margin-top: 100px;
+    }
+    .frame{
+        width: 360px;
+height: 120px;
+/* border: burlywood solid 1px; */
+margin: auto;
+background-color: rgb(90, 100, 99);
+font-size: 30px;
+color: honeydew;
+text-align: right;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+        
+    }
+
+    .red{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: red;
+        float: left;
+}
+.red:hover{
+
+    background-color: rgb(43, 29, 29);
+
+}
+.bule{
+    width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 10px;
+    background-color: rgb(28, 28, 219);
+    float: left;
+}
+.bule:hover{
+
+background-color: rgb(17, 156, 149);
+
+}
+.green{
+    width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 10px;
+    background-color: green;
+    float: left;
+}
+.green:hover{
+
+background-color: rgb(187, 98, 38);
+
+}
+    
+    .down{
+        width: 360px;
+height: 300px;
+/* border: burlywood solid 1px; */
+margin: auto;
+background-color: rgb(93, 105, 103);
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+    }
+    .box{
+        width: 88px;
+height: 58px;
+border: rgb(222, 233, 225) solid 1px;
+float: left;
+text-align: center;
+font-size: 25px;
+color: honeydew;
+    }
+    .yell{
+background-color: chocolate;
+
+    }
+    .gray{
+background-color: gray;
+    }
+</style>
+<body>
+    <div class="out">
+        <div class="frame">
+
+            <div >
+                <div class="red"></div>
+                <div class="bule"></div>
+                <div class="green"></div>
+                计算器
+            </div>
+           </div>
+        <div class="down gray">
+            <div class="box">AC</div>
+            <div class="box">C</div>
+            <div class="box">+/-</div>
+            <div class="box yell">%</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box yell">+</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box yell">-</div>
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box yell">*</div>
+            <div class="box" style="width: 49%;" >0</div>
+            <div class="box">.</div>
+            <div class="box yell" style="border-bottom-right-radius: 15px;">=</div>
+        </div>
+    </div>
+</body>
+ <script>
+            function test(btn){
+                var number = btn.value;
+                switch (number) {
+                    case "=":
+                        document.getElementById("input").value= eval(document.getElementById("input").value);
+                        break;
+                    case "c":
+                        document.getElementById("input").value="";
+                        break;
+                    default:
+                        document.getElementById("input").value+=number;
+                        break;
+                }
+                
+            }
+        </script>
+</html>

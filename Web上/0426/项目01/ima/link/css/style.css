@@ -1,0 +1,22 @@
+ol{line-height: 30px;}
+p{margin-bottom: 15px;line-height: 1.7em;text-indent:28px;}
+ul{list-style-type: none;line-height: 30px;}
+th{color:#999;}
+.divfixed{position: fixed;float: right;right:0px;top:50px;}
+dl{float:left;padding-right:60px;line-height: 28px;}
+dl dd{font-size:12px;}
+.footer{color:#999;font-size:12px;padding-bottom: 20px;}
+/*
+导航链接样式要求
+初始样式：#5896d5，没有下划线，文字大小不变
+鼠标经过：#5896d5，有下划线，文字大小不变
+活动链接：#5896d5，有下划线，文字大小不变
+访问过后：#555555，没有下划线，文字大小不变
+*/
+/*
+页脚链接样式要求
+初始样式：#666666，没有下划线，文字大小不变
+鼠标经过：#5896d5，没有下划线，文字大小不变
+活动链接：#5896d5，没有下划线，文字大小不变
+访问过后：#666666，没有下划线，文字大小不变
+*/

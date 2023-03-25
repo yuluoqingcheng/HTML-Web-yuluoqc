@@ -1,0 +1,179 @@
+body{
+	color: #333;
+	line-height: 1.5em;
+	background-color: #f5f5f5;
+}
+h1{
+	padding: 0;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	display: inline;
+	margin: 0 10px 0 0;
+	font-size: 34px;
+	line-height: 1.15;
+	font-weight: 400;
+	vertical-align: sub;
+
+}
+h2{
+	margin: 0 10px 0 -10px;
+	display: inline;
+	font-weight: 400;
+	font-size: 20px;
+	vertical-align: sub
+
+}
+img{
+	width: 268px;
+	height: 382px;
+}
+.para{
+	font-size: 14px;
+	word-wrap: break-word;
+	color: #333;
+	margin-bottom: 15px;
+	text-indent: 2em;
+	line-height: 24px;
+}
+.lemma-catalog{
+	float: left;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	background: #fbfbfb;
+}
+.level1{
+	color: #136ec2;
+	text-decoration: none;
+}
+.level2{
+	line-height: 21px;
+	color: #333;
+	text-decoration: none;
+	padding-left:20px;
+}
+#content{
+	margin: 0 auto;
+	background:#FFF;
+	border: 1px solid #e5e5e5;
+	margin: 20px 0 0;
+	padding: 29px;
+
+}
+.level1 .index{
+	display: inline-block;
+	width: 18px;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 8px;
+	vertical-align: top;
+	text-align: right;
+	color: #63a0df;
+
+}
+.level2 .index{
+	display: inline-block;
+	padding-left:21px;
+	padding-right: 5px;
+	width: 5px;
+	line-height: 16px;
+	font-size: 12px;
+	vertical-align: top;
+	color: #ccc;
+}
+
+
+/* 以上CSS是加进去的 */
+
+a{
+    color: #136ec2;
+    text-decoration: none;
+}
+
+.main-content{
+	width: 790px;
+	padding: 29px 29px 0;
+	float: left;
+	position: relative;
+}
+
+.lemmaTitle{
+	margin: 0 0 10px;
+	width: 700px;
+	font-family: arial,tahoma,'Microsoft Yahei';
+}
+
+dl {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.lemmaWgt-lemmaCatalog{
+	margin: 35px 0;
+}
+
+.block-title{    
+	float: left;
+	margin: 22px 0 0 20px;
+	width: 62px;
+	height: 48px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 48px;
+	font-weight: 400;
+}
+
+.catalog-list{
+	display: block;
+	float: left;
+	border-left: 1px solid #ebebeb;
+	width: 706px;
+	position: relative;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+
+.column-3{
+	width: auto;
+}
+
+li{
+	list-style: none;
+}
+
+ol{
+	width: 175.5px;
+	float: left;
+}
+
+.level2 .text{
+	display: inline-block;
+	line-height: 16px;
+	font-size: 12px;
+	width: 115px;
+	vertical-align: top;
+	text-decoration: none;
+}
+
+.side-content{
+	position: relative;
+	float: right;
+	padding-top: 29px;
+	width: 270px;
+}
+
+.summary-pic{
+	width: 268px;
+	border: solid 1px #DDD;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 1px #ccc;
+	position: relative;
+	font-size: 0;
+	line-height: 0;
+}

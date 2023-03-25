@@ -1,0 +1,58 @@
+html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,th,img,div,dl,dt,dd,input,select,form,fieldset{margin:auto;padding:0;}
+body{margin:0 auto;}
+ul li{list-style:none outside none;}
+a:hover { top:-1px;}
+.clear{clear:both;}
+.header_logo a,.ywtop_sethome,.ywtop_addfavorite,.frii .int,.reader_mark0 a,.reader_mark1 a,#fmimg span{background:url(../img/all.gif) no-repeat scroll 0 0 transparent;}
+.ywtop{background-color:#E1ECED;border-bottom:1px solid #A6D3E8;color:gray;height:28px;min-width:950px;width:100%;margin-bottom:10px;}
+.ywtop_con{line-height:28px;text-indent:16px;vertical-align:middle;width:950px;margin:0 auto;}
+.ywtop_sethome{background-position:0 8px;display:inline;float:left;margin-right:20px;}
+.ywtop a{color:gray;}
+.ywtop_addfavorite{background-position:0 -12px;display:inline;float:left;}
+.nri{float:right;font-size:13px;}
+.nri .cc{float:left;overflow:hidden;width:155px;}
+.cc .txt{color:gray;float:left;text-align:right;}
+.cc .inp{float:left;padding-top:3px;width:90px;}
+.inp input{background-color:#FFF;border:1px solid #A6D3E8;float:left;height:18px;width:87px;margin:1px 0;}
+.nri .frii{float:left;font-size:14px;margin-left:5px;padding-top:3px;width:55px;}
+.frii .int{background-position:0 -96px;border:medium none;color:#2A4E8A;float:left;font-size:12px;height:21px;line-height:21px;text-align:center;width:51px;}
+.nri .ccc{float:left;overflow:hidden;padding-left:10px;}
+.ccc .txtt{color:gray;float:left;padding-left:10px;}
+.txtt a,.txtt a:hover{color:gray;text-decoration:none;}
+.header{height:61px;width:980px;margin:auto;}
+.header_logo a{display:block;float:left;height:60px;text-indent:-9999px;width:250px; background-image:url(../img/logo.png)}
+.header_search{float:right;overflow:hidden;width:430px;margin:14px auto auto 40px; position:relative}
+.header_search ._17mb_searchtype{float:left;width:50px;border:1px solid #A6D3E8;height:30px; line-height:30px;padding-left:10px;background-color:#fff; font-weight:bold;cursor:pointer;font-size:14px; background-image:url('/images/jiantou.png'); position:absolute;top:0px;left:0px;}
+.header_search input.search{border:1px solid #A6D3E8;font-size:14px;color:#c3c3c3;height:24px;width:280px;padding:3px;position:absolute;left:60px;}
+.header_search button{width:85px;height:32px;font-size:14px;border:1px solid #A6D3E8;background-color:#f9f9f9;color:#999999;cursor:pointer;float:right;}
+#xx_search{ overflow:hidden;width:525px;margin:auto; }
+#xx_search input.search{border:1px solid #A6D3E8;font:16px/22px arial;height:24px;margin-right:5px;width:390px;padding:3px;}
+#xx_search button{background:none repeat scroll 0 0 #DDD;cursor:pointer;font-size:14px;height:32px;width:95px;}
+.nav{height:40px;overflow:hidden;width:980px;margin:10px auto auto;} 
+.nav ul li{float:left;line-height:44px;}
+.nav ul li a{font-weight:700;padding:0 13px;}
+
+.dahengfu{overflow:hidden; width:976px; margin:10px auto;}
+.box_con{overflow:hidden;width:976px;margin:10px auto;} 
+.con_top { padding: 0px 10px; height:40px; }
+#sidebar{float:left;width:140px;text-align:left;}
+#maininfo{float:right;width:800px;}
+.con_top #page_set{ float:right; text-align:right; height:20px; line-height:20px; padding-right:5px; padding-top:10px;}
+.bookname{padding-top:10px; margin-bottom:10px;}
+.bookname h1{padding-top:10px;}
+.bottem1{clear:both!important;text-align:center;margin:5px;}
+.lm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:5px;text-align:center;}
+.lm a{margin-left:10px;}
+.box_con #content,.box_con #content div,.box_con #content a{padding-top:15px;width:85%;margin:auto;}
+.box_con #content p div img,.box_con #content p img,.imagecontent,.divimage{text-align:center;margin:auto;}
+.content_read{overflow:hidden;width:980px;margin:0px auto auto;}
+.error{padding:20px 0px;}
+.bottem2{clear:both!important;margin:auto 20px;padding:15px;}
+.bottem a,.bottem1 a,.bottem2 a{margin-left:10px;margin-right:10px;}
+#bdshare { padding:5px 5px  5px 13%; }
+#footer,.footer{overflow:hidden;text-align:center;width:980px;margin:10px auto auto;}
+.footer_link{overflow:hidden;width:98%;margin:5px auto;}
+.footer_link a{margin-left:8px;}
+.footer_cont p{width:88%;}
+#banner{border-top:0px;width:400px; position:absolute;left:50%;margin-left:86px; border-radius:0px 0px 5px 5px;}
+#banner li a{display:block;float:left; text-decoration:none}

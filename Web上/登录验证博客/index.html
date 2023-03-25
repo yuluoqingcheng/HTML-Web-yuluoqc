@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="./css/new_file.css">
+		<script>
+			function checkForm(){
+				var uname = document.getElementById("uname").value;
+				var upasswd = document.getElementById("upasswd").value;
+			
+				//用户名或密码不能为空
+				if(uname == "" || upasswd == ""){
+					alert("用户名或密码不能为空");
+					return false;
+				}
+			}
+
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="center">
+				<div class="right">
+					<form action="check.html" method="get" onsubmit="checkForm()">
+						<div class="dl">
+							<h1>登录</h1>
+						</div>
+						<div class="formgrop">
+							<input type="text"   placeholder="请输入用户名" id="uname" name="username">
+						</div>
+						<div class="formgrop">
+							<input type="password"   placeholder="请输入密码" id="upasswd" name="userpwd">
+						</div>
+						<div class="formgrop">
+							<input type="checkbox" id="remember">
+							<label for="remember">记住用户名</label>
+							<a href="">忘记密码</a>
+						</div>
+						<div>
+							<input type="submit" value="登录" id="submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
